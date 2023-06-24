@@ -1,0 +1,57 @@
+<mat-card class="contenedor-informes">
+
+    <!-- Division de informes-atencion -->
+    <div>
+        <h2 class="titulo-sprints-btns">Primer informe</h2>
+    
+        <div class="row">
+            <h5>Control de atención</h5>
+            <ul>
+                <li>• ¿Quién fue al que más tickets le fueron asignados ❓ <label class="lbl-resultado-query">{{informe_1_resultado}}</label> </li>
+                <li>• ¿Cuántos tickets están pendientes de ser resueltos ❓ <label class="lbl-resultado-query">{{informe_2_resultado}}</label></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Division de informes-desperfectos -->
+    <div>
+        <h2 class="titulo-sprints-btns">Segundo informe</h2>
+    
+        <div class="row">
+            <h5>Control de incidentes/desperfectos</h5>
+            <ul>
+                <li>• ¿Cuál es el desperfecto más frecuente ❓ <label class="lbl-resultado-query">{{informe_3_resultado}}</label></li>
+                <li>• ¿Cuál es el desperfecto más resuelto ❓ <label class="lbl-resultado-query">{{informe_4_resultado}}</label></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Division de informes-localizaciones -->
+    <div>
+        <h2 class="titulo-sprints-btns">Tercer informe</h2>
+    
+        <div class="row">
+            <h5>Datos zonales</h5>
+            <ul>
+                <li>• ¿Cuál es la ubicación exacta con más tickets atendidos ❓ <label class="lbl-resultado-query">{{informe_5_resultado}}</label></li>
+                <li>• ¿Cuál es la ubicación que más tickets se abieron partiendo de la ubicación de la empresa en un radio de 5km ❓ <label class="lbl-resultado-query">{{informe_6_resultado}}</label></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Division de informes-clientes -->
+    <div>
+        <h2 class="titulo-sprints-btns">Cuarto informe</h2>
+    
+        <div class="row">
+            <h5>Datos de clientes</h5>
+            <ul>
+                <li>• ¿Quién es el cliente que más tickets abrió ❓ <label class="lbl-resultado-query">{{informe_7_resultado}}</label></li>
+                <li>• ¿Cuantos clientes abrieron más de 2 tickets ❓ <label class="lbl-resultado-query">{{informe_8_resultado}}</label></li>
+            </ul>
+        </div>
+    </div>
+
+    <button class="botón-informes" (click)="EjecutarQueryInformes()">Solicitar informes</button>
+
+</mat-card>

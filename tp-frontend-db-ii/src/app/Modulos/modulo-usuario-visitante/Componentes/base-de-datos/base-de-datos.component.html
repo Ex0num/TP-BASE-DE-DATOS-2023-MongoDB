@@ -1,0 +1,159 @@
+<mat-card class="contenedor-tickets">
+
+    <mat-accordion class="ticket-item-accordion" *ngFor="let ticket of resultadosRecibidosQueryEjecutada; let i = index">
+        <mat-expansion-panel>
+            <mat-expansion-panel-header class="ticket-header">
+                <legend class="ticket-header-contenido">
+                    Afectado - <label class="ticket-header-data">{{ticket.usuario_afectado}}</label> | 
+                    Estado - <label class="ticket-header-data">{{ticket.estado}}</label> | 
+                    Asunto - <label class="ticket-header-data">{{ticket.asunto}}</label>
+                </legend>
+            </mat-expansion-panel-header>
+            
+            <mat-panel-description>
+                <table class="tabla-details-datos">
+                    <tr>
+                        <th>Usuario afectado:</th>
+                        <td class="tabla-celda-estilada-v3">{{ticket.usuario_afectado}}</td>
+                    </tr>
+                    <tr>
+                        <th class="tabla-celda-estilada">Asunto:</th>
+                        <td class="tabla-celda-estilada">{{ticket.asunto}}</td>
+                    </tr>
+                    <tr>
+                        <th class="tabla-celda-estilada">Comentario inicial:</th>
+                        <td class="tabla-celda-estilada">{{ticket.comentario_inicial}}</td>
+                    </tr>
+                    <tr>
+                        <th class="tabla-celda-estilada">Estado:</th>
+                        <td class="tabla-celda-estilada">{{ticket.estado}}</td>
+                    </tr>
+                    <tr>
+                        <th class="tabla-celda-estilada">Asignador:</th>
+                        <td class="tabla-celda-estilada">{{ticket.asignador}}</td>
+                    </tr>
+                    <tr>
+                        <th class="tabla-celda-estilada">Último asignado:</th>
+                        <td class="tabla-celda-estilada">{{ticket.ultimo_asignado}}</td>
+                    </tr>
+                    <tr>
+                        <th class="tabla-celda-estilada">Historial derivaciones:</th>
+                        <td class="tabla-celda-estilada">
+                            
+                            <mat-accordion>
+                                <mat-expansion-panel>
+                                    <mat-expansion-panel-header>
+                                        Derivaciones
+                                    </mat-expansion-panel-header>
+                                    <mat-panel-description>
+                                        <table class="tabla-datos-auxiliares-item-ticket">
+                                            <tr>
+                                                <th class="tabla-celda-estilada-v2">Asignador</th>
+                                                <th class="tabla-celda-estilada">Asignado</th>
+                                                <th class="tabla-celda-estilada">Fecha de asignación</th>
+                                                <th class="tabla-celda-estilada">Hora de asignación</th>
+                                            </tr>
+                                            <tr *ngFor="let derivacion of ticket.historial_derivaciones">
+                                                <td class="tabla-celda-estilada-v2">{{derivacion.asignador}}</td>
+                                                <td class="tabla-celda-estilada">{{derivacion.asignado}}</td>
+                                                <td class="tabla-celda-estilada">{{derivacion.fecha_asignacion}}</td>
+                                                <td class="tabla-celda-estilada">{{derivacion.hora_asignacion}}</td>
+                                            </tr>
+                                            
+                                        </table>
+                                    </mat-panel-description>
+                                </mat-expansion-panel>
+                            </mat-accordion>
+                            
+                        </td>
+                    </tr>
+                    <tr class="tabla-celda-estilada">
+                        <th>Historial conversación:</th>
+                        <td class="tabla-celda-estilada-v2">
+
+                            <mat-accordion>
+                                <mat-expansion-panel>
+                                    <mat-expansion-panel-header>
+                                        Chat
+                                    </mat-expansion-panel-header>
+                                    <mat-panel-description>
+                                        <table class="tabla-datos-auxiliares-item-ticket">
+                                            <tr>
+                                                <th class="tabla-celda-estilada-v2">Emisor</th>
+                                                <th class="tabla-celda-estilada">Tipo de usuario</th>
+                                                <th class="tabla-celda-estilada">Mensaje</th>
+                                            </tr>
+                                            <tr *ngFor="let mensaje of ticket.historial_conversacion">
+                                                <td class="tabla-celda-estilada-v2">{{mensaje.emisor}}</td>
+                                                <td class="tabla-celda-estilada">{{mensaje.tipo_usuario}}</td>
+                                                <td class="tabla-celda-estilada">"{{mensaje.mensaje}}"</td>
+                                            </tr>
+                                        </table> 
+                                    </mat-panel-description>
+                                </mat-expansion-panel>
+                            </mat-accordion>
+
+                        </td>
+                    </tr>
+                    <tr class="tabla-celda-estilada">
+                        <th class="tabla-celda-estilada">Coordenadas de localización:</th>
+                        <td class="tabla-celda-estilada">{{ticket.coordenadas_localizacion_afectado[0]}} ; {{ticket.coordenadas_localizacion_afectado[1]}}</td>
+                    </tr>
+                    <tr class="tabla-celda-estilada">
+                        <th class="tabla-celda-estilada">Packs de canales adquiridos:</th>
+                        <td class="tabla-celda-estilada">
+
+                            <mat-accordion>
+                                <mat-expansion-panel>
+                                    <mat-expansion-panel-header>
+                                        Packs
+                                    </mat-expansion-panel-header>
+                                    <mat-panel-description>
+                                        <table class="tabla-datos-auxiliares-item-ticket">
+                                            <tr>
+                                                <th class="tabla-celda-estilada-v2">Nombre del pack</th>
+                                                <th class="tabla-celda-estilada">Versión</th>
+                                                <th class="tabla-celda-estilada">Fecha de vigencia</th>
+                                                <th class="tabla-celda-estilada">Canales incluidos</th>
+                                            </tr>
+                                            <tr *ngFor="let pack of ticket.packs_de_canales_adquiridos">
+                                                <td class="tabla-celda-estilada-v2">{{pack.nombre_pack}}</td>
+                                                <td class="tabla-celda-estilada">{{pack.version}}</td>
+                                                <td class="tabla-celda-estilada">{{pack.fecha_vigencia}}</td>
+                                                <td class="tabla-celda-estilada">
+                                                    <table class="tabla-datos-auxiliares-item-ticket">
+                                                        <tr>
+                                                            <th class="tabla-celda-estilada-v2">Nombre del canal</th>
+                                                            <th class="tabla-celda-estilada">Número del canal</th>
+                                                        </tr>
+                                                        <tr *ngFor="let canal of pack.canales_incluidos">
+                                                            <td class="tabla-celda-estilada-v2">{{canal.nombre_canal}}</td>
+                                                            <td class="tabla-celda-estilada">{{canal.nombre_canal}}</td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </mat-panel-description>
+                                </mat-expansion-panel>
+                            </mat-accordion>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Conclusión final:</th>
+                        <td class="tabla-celda-estilada-v3">{{ticket.conclusion_final}}</td>
+                    </tr>
+                </table>
+            </mat-panel-description>
+        </mat-expansion-panel>
+    </mat-accordion>
+
+</mat-card>
+
+<!-- <mat-paginator class="paginador-base-de-datos"
+    [length]="32"
+    [pageSize]="3"
+    [pageSizeOptions]="[2, 3, 5]"
+    aria-label="Select page">
+</mat-paginator> -->

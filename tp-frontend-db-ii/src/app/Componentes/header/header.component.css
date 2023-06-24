@@ -1,0 +1,152 @@
+/*----------------- configuracion gral ----------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat-normal;
+  }
+  
+  a {
+	  text-decoration: none;
+	  cursor: pointer;
+  }
+  
+  li {
+	  list-style: none;
+  }
+  
+  p {
+	  margin: 0px;
+  }
+  
+  /*--------------------------------------- Header --------------------------------------- */
+  #contenedor-header
+  {
+	  position: fixed;
+	  width: 100%;
+	  top: 0;
+	  z-index: 1000;
+	  padding: 0.3rem;
+  }
+  
+  #header-principal {
+	  height: 3.5rem;
+  }
+  
+  #titulo-y-logo {
+	  margin-bottom: 6px;
+	  font-family: Raleway-medium;
+	  text-align: start;
+  }
+  
+  #icono-principal {
+	  margin-right: 1rem;
+	  padding: 0.3rem;
+  }
+  
+  #titulo-principal {
+	  font-size: 32px;
+	  margin-right: 3rem;
+	  text-align: left;
+	  text-decoration: none;
+	  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	  color: #22226b;
+  }
+  
+  #header-lista-opciones li {
+	  font-family: BalooBhaijaan2-medium;
+	  font-weight: 600;
+	  margin-right: 1.5rem;
+	  margin-left: 1.5rem;
+  }
+  
+  #opcion-inicio,
+  #opcion-registrarse,
+  #opcion-ingresar,
+  #opcion-contacto,
+  #opcion-FAQ {
+	  text-align: right;
+	  color: #3131a1;
+	  animation: tracking-in-expand 1.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	  font-size: 20px;
+	  padding-bottom: 5px;
+	  border-bottom: 1px solid transparent;
+	  transition: color 0.8s ease, border-bottom 0.8s ease;
+  }
+  
+  #opcion-inicio:hover,
+  #opcion-registrarse:hover,
+  #opcion-ingresar:hover,
+  #opcion-contacto:hover,
+  #opcion-FAQ:hover 
+  { color: #6b78f0; }
+  
+  /*----------------- Responsive mobile -----------------*/
+  @media (max-width: 895px) 
+  {
+	  #header-lista-opciones {
+		  display: none;
+	  }
+  
+	  #titulo-y-logo {
+		  margin-top: 5px;
+	  }
+  
+	  #titulo-principal {
+		  font-size: 42px;
+	  }
+  
+	  #separador-header {
+		  height: 5rem;
+	  }
+  }
+  
+  @media (max-width: 350px) 
+  {
+	  #titulo-y-logo {
+		  margin-right: 20%;
+	  }
+  
+	  #titulo-principal {
+		  font-size: 32px;
+	  }
+  }
+  
+  @media (max-width: 250px) 
+  {
+	  #icono-principal {
+		  display: none;
+	  }
+  }
+  
+  /*----------------- Animaciones ----------------------*/
+  
+  /*
+  * ----------------------------------------
+  * animation tracking-in-expand
+  * ----------------------------------------
+  */
+  @-webkit-keyframes tracking-in-expand {
+	  0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	  }
+	  40% {
+		opacity: 0.6;
+	  }
+	  100% {
+		opacity: 1;
+	  }
+  }
+  @keyframes tracking-in-expand {
+  0% {
+	  letter-spacing: -0.5em;
+	  opacity: 0;
+  }
+  40% {
+	  opacity: 0.6;
+  }
+  100% {
+	  opacity: 1;
+  }
+  }

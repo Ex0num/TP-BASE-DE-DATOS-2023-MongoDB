@@ -1,0 +1,2067 @@
+[{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd3f"
+  },
+  "usuario_afectado": "jose.rodriguez",
+  "asunto": "desperfecto",
+  "comentario_inicial": "Tengo problemas con la señal de televisión",
+  "estado": "abierto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [
+    {
+      "emisor": "jose.rodriguez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Tengo problemas con la señal de televisión"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5732,
+    -58.4578
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "2.0",
+      "fecha_vigencia": "15/05/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 401
+        },
+        {
+          "nombre_canal": "FOX",
+          "numero_canal": 402
+        },
+        {
+          "nombre_canal": "TNT",
+          "numero_canal": 403
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd40"
+  },
+  "usuario_afectado": "maria.gonzalez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Quiero cambiar mi plan de internet a uno más rápido",
+  "estado": "esperando_respuesta_cliente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "maria.gonzalez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "maria.gonzalez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "11:30 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "maria.gonzalez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Quiero cambiar mi plan de internet a uno más rápido"
+    },
+    {
+      "emisor": "soporte_cliente_1",
+      "tipo_usuario": "soporte_cliente",
+      "mensaje": "Buen día, por favor, indíquenos el plan al que desea cambiar"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5897,
+    -58.4124
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Cine",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Cinecanal",
+          "numero_canal": 701
+        },
+        {
+          "nombre_canal": "TCM",
+          "numero_canal": 702
+        },
+        {
+          "nombre_canal": "Space",
+          "numero_canal": 703
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd41"
+  },
+  "usuario_afectado": "lucas.martinez",
+  "asunto": "dar_de_alta",
+  "comentario_inicial": "Quiero dar de alta un nuevo servicio de internet en mi domicilio",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "ana.sanchez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "ana.sanchez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "10:15 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "lucas.martinez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Quiero dar de alta un nuevo servicio de internet en mi domicilio"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5921,
+    -58.3972
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportes",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 212
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 213
+        },
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 214
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd42"
+  },
+  "usuario_afectado": "ana.rojas",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Deseo dar de baja mi servicio de televisión por cable",
+  "estado": "resuelto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "juan.perez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "juan.perez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "09:45 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "ana.rojas",
+      "tipo_usuario": "cliente",
+      "mensaje": "Deseo dar de baja mi servicio de televisión por cable"
+    },
+    {
+      "emisor": "soporte_cliente_1",
+      "tipo_usuario": "soporte_cliente",
+      "mensaje": "Entendido, ¿podría brindarnos el motivo de la baja?"
+    },
+    {
+      "emisor": "ana.rojas",
+      "tipo_usuario": "cliente",
+      "mensaje": "Ya no utilizo la televisión y quiero reducir mis gastos"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5809,
+    -58.4059
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "1.5",
+      "fecha_vigencia": "01/05/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 401
+        },
+        {
+          "nombre_canal": "FOX",
+          "numero_canal": 402
+        },
+        {
+          "nombre_canal": "TNT",
+          "numero_canal": 403
+        }
+      ]
+    }
+  ],
+  "conclusion_final": "El servicio de televisión por cable ha sido dado de baja según la solicitud de la cliente"
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd43"
+  },
+  "usuario_afectado": "juan.perez",
+  "asunto": "desperfecto",
+  "comentario_inicial": "Mi servicio de internet se encuentra intermitente, necesito asistencia técnica",
+  "estado": "abierto",
+  "asignador": "",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [
+    {
+      "emisor": "juan.perez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Mi servicio de internet se encuentra intermitente, necesito asistencia técnica"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5823,
+    -58.3987
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "2.0",
+      "fecha_vigencia": "01/06/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 401
+        },
+        {
+          "nombre_canal": "FOX",
+          "numero_canal": 402
+        },
+        {
+          "nombre_canal": "TNT",
+          "numero_canal": 403
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd44"
+  },
+  "usuario_afectado": "laura.gonzalez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Deseo cambiar mi plan de internet a una velocidad mayor",
+  "estado": "esperando_respuesta_cliente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "laura.gonzalez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "laura.gonzalez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "11:30 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "laura.gonzalez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Deseo cambiar mi plan de internet a una velocidad mayor"
+    },
+    {
+      "emisor": "soporte_cliente_1",
+      "tipo_usuario": "soporte_cliente",
+      "mensaje": "Claro, tenemos diferentes opciones de planes disponibles. ¿Podría brindarnos más detalles sobre sus necesidades?"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5751,
+    -58.4079
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "1.0",
+      "fecha_vigencia": "01/05/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 401
+        },
+        {
+          "nombre_canal": "FOX",
+          "numero_canal": 402
+        },
+        {
+          "nombre_canal": "TNT",
+          "numero_canal": 403
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd45"
+  },
+  "usuario_afectado": "pedro.martinez",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Quiero dar de baja mi servicio de televisión por cable",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "soporte_agente_1",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "soporte_agente_1",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "10:15 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "pedro.martinez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Quiero dar de baja mi servicio de televisión por cable"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5874,
+    -58.4112
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Cine",
+      "version": "1.0",
+      "fecha_vigencia": "01/04/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Cinecanal",
+          "numero_canal": 501
+        },
+        {
+          "nombre_canal": "TCM",
+          "numero_canal": 502
+        },
+        {
+          "nombre_canal": "AXN",
+          "numero_canal": 503
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd46"
+  },
+  "usuario_afectado": "carlos.lopez",
+  "asunto": "dar_de_alta",
+  "comentario_inicial": "Quiero dar de alta un nuevo servicio de telefonía móvil",
+  "estado": "resuelto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "9:30 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "carlos.lopez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Quiero dar de alta un nuevo servicio de telefonía móvil"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5839,
+    -58.4015
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Música",
+      "version": "1.0",
+      "fecha_vigencia": "01/03/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "MTV",
+          "numero_canal": 601
+        },
+        {
+          "nombre_canal": "VH1",
+          "numero_canal": 602
+        },
+        {
+          "nombre_canal": "Music Box",
+          "numero_canal": 603
+        }
+      ]
+    }
+  ],
+  "conclusion_final": "El nuevo servicio de telefonía móvil ha sido dado de alta exitosamente."
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd47"
+  },
+  "usuario_afectado": "laura.gonzalez",
+  "asunto": "desperfecto",
+  "comentario_inicial": "Mi decodificador de televisión se reinicia constantemente",
+  "estado": "abierto",
+  "asignador": "",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [
+    {
+      "emisor": "laura.gonzalez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Mi decodificador de televisión se reinicia constantemente"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5802,
+    -58.4157
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "2.0",
+      "fecha_vigencia": "01/06/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Universal Channel",
+          "numero_canal": 401
+        },
+        {
+          "nombre_canal": "FX",
+          "numero_canal": 402
+        },
+        {
+          "nombre_canal": "SYFY",
+          "numero_canal": 403
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Noticias",
+      "version": "1.5",
+      "fecha_vigencia": "01/04/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "CNN",
+          "numero_canal": 501
+        },
+        {
+          "nombre_canal": "TN",
+          "numero_canal": 502
+        },
+        {
+          "nombre_canal": "BBC World",
+          "numero_canal": 503
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd48"
+  },
+  "usuario_afectado": "juan.perez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Deseo cambiar mi plan de internet a uno de mayor velocidad",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "juan.perez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "juan.perez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "11:20 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "juan.perez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Deseo cambiar mi plan de internet a uno de mayor velocidad"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5897,
+    -58.4142
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportes",
+      "version": "2.0",
+      "fecha_vigencia": "01/05/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        },
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Cine",
+      "version": "1.8",
+      "fecha_vigencia": "01/03/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 601
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 602
+        },
+        {
+          "nombre_canal": "TNT",
+          "numero_canal": 603
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd49"
+  },
+  "usuario_afectado": "carlos.lopez",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Deseo dar de baja mi servicio de telefonía móvil",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "carlos.lopez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "carlos.lopez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "11:25 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "carlos.lopez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Deseo dar de baja mi servicio de telefonía móvil"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5845,
+    -58.4123
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Música",
+      "version": "2.2",
+      "fecha_vigencia": "01/07/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "MTV",
+          "numero_canal": 701
+        },
+        {
+          "nombre_canal": "VH1",
+          "numero_canal": 702
+        },
+        {
+          "nombre_canal": "CM",
+          "numero_canal": 703
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Cine",
+      "version": "2.0",
+      "fecha_vigencia": "01/05/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 601
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 602
+        },
+        {
+          "nombre_canal": "TNT",
+          "numero_canal": 603
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd4a"
+  },
+  "usuario_afectado": "ana.sanchez",
+  "asunto": "dar_de_alta",
+  "comentario_inicial": "Deseo dar de alta un nuevo servicio de televisión por cable",
+  "estado": "resuelto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "ana.sanchez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "ana.sanchez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "11:30 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "ana.sanchez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Deseo dar de alta un nuevo servicio de televisión por cable"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5821,
+    -58.4101
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Cocinero",
+      "version": "2.5",
+      "fecha_vigencia": "01/09/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Utilisima",
+          "numero_canal": 342
+        },
+        {
+          "nombre_canal": "Gourmet",
+          "numero_canal": 343
+        },
+        {
+          "nombre_canal": "Costumbres Argentinas",
+          "numero_canal": 344
+        }
+      ]
+    }
+  ],
+  "conclusion_final": "El nuevo servicio de televisión por cable ha sido activado exitosamente."
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd4b"
+  },
+  "usuario_afectado": "pedro.gomez",
+  "asunto": "desperfecto",
+  "comentario_inicial": "Mi televisor no enciende, necesito asistencia técnica",
+  "estado": "abierto",
+  "asignador": "",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [
+    {
+      "emisor": "pedro.gomez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Mi televisor no enciende, necesito asistencia técnica"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5809,
+    -58.4138
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Cocinero",
+      "version": "2.5",
+      "fecha_vigencia": "01/09/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Utilisima",
+          "numero_canal": 342
+        },
+        {
+          "nombre_canal": "Gourmet",
+          "numero_canal": 343
+        },
+        {
+          "nombre_canal": "Costumbres Argentinas",
+          "numero_canal": 344
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd4c"
+  },
+  "usuario_afectado": "laura.martinez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Deseo cambiar mi plan de internet a uno de mayor velocidad",
+  "estado": "esperando_respuesta_cliente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "laura.martinez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "laura.martinez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "11:45 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "laura.martinez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Deseo cambiar mi plan de internet a uno de mayor velocidad"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5796,
+    -58.4112
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Cocinero",
+      "version": "2.5",
+      "fecha_vigencia": "01/09/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Utilisima",
+          "numero_canal": 342
+        },
+        {
+          "nombre_canal": "Gourmet",
+          "numero_canal": 343
+        },
+        {
+          "nombre_canal": "Costumbres Argentinas",
+          "numero_canal": 344
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd4d"
+  },
+  "usuario_afectado": "roberto.lopez",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Quiero dar de baja mi servicio de televisión por cable",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "roberto.lopez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "roberto.lopez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "12:00 PM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "roberto.lopez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Quiero dar de baja mi servicio de televisión por cable"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.669264,
+    -58.363941
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Música",
+      "version": "2.2",
+      "fecha_vigencia": "01/07/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "MTV",
+          "numero_canal": 701
+        },
+        {
+          "nombre_canal": "VH1",
+          "numero_canal": 702
+        },
+        {
+          "nombre_canal": "CM",
+          "numero_canal": 703
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Cine",
+      "version": "2.0",
+      "fecha_vigencia": "01/05/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 601
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 602
+        },
+        {
+          "nombre_canal": "TNT",
+          "numero_canal": 603
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd4e"
+  },
+  "usuario_afectado": "carlos.fernandez",
+  "asunto": "dar_de_alta",
+  "comentario_inicial": "Necesito dar de alta un nuevo servicio de internet",
+  "estado": "resuelto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "carlos.fernandez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "carlos.fernandez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "12:15 PM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "carlos.fernandez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Necesito dar de alta un nuevo servicio de internet"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5829,
+    -58.4104
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Música",
+      "version": "2.2",
+      "fecha_vigencia": "01/07/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "MTV",
+          "numero_canal": 701
+        },
+        {
+          "nombre_canal": "VH1",
+          "numero_canal": 702
+        },
+        {
+          "nombre_canal": "CM",
+          "numero_canal": 703
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Cine",
+      "version": "2.0",
+      "fecha_vigencia": "01/05/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 601
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 602
+        },
+        {
+          "nombre_canal": "TNT",
+          "numero_canal": 603
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Deportes",
+      "version": "2.0",
+      "fecha_vigencia": "01/05/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        },
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        }
+      ]
+    }
+  ],
+  "conclusion_final": "El nuevo servicio de internet ha sido activado exitosamente."
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd4f"
+  },
+  "usuario_afectado": "maria.rodriguez",
+  "asunto": "desperfecto",
+  "comentario_inicial": "Mi teléfono fijo no funciona, necesito asistencia técnica",
+  "estado": "abierto",
+  "asignador": "",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [
+    {
+      "emisor": "maria.rodriguez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Mi teléfono fijo no funciona, necesito asistencia técnica"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5812,
+    -58.4117
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportes",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        },
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd50"
+  },
+  "usuario_afectado": "luisa.gonzalez",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Deseo dar de baja mi servicio de televisión por cable",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "martin.sanchez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "martin.sanchez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "03:45 PM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "luisa.gonzalez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Deseo dar de baja mi servicio de televisión por cable"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5836,
+    -58.4092
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportes",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        },
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Cocina",
+      "version": "2.0",
+      "fecha_vigencia": "01/01/2024",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Utilisima",
+          "numero_canal": 342
+        },
+        {
+          "nombre_canal": "Gourmet",
+          "numero_canal": 343
+        },
+        {
+          "nombre_canal": "Costumbres Argentinas",
+          "numero_canal": 344
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd51"
+  },
+  "usuario_afectado": "julio.lopez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Quiero cambiar mi plan de internet a uno más rápido",
+  "estado": "resuelto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "julio.lopez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "julio.lopez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "05:20 PM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "julio.lopez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Quiero cambiar mi plan de internet a uno más rápido"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5821,
+    -58.4128
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 501
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 502
+        },
+        {
+          "nombre_canal": "Paramount",
+          "numero_canal": 503
+        }
+      ]
+    }
+  ],
+  "conclusion_final": "Se realizó el cambio de plan solicitado. El cliente ha quedado satisfecho."
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd52"
+  },
+  "usuario_afectado": "luisa.gonzalez",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Deseo dar de baja mi servicio de televisión por cable",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "martin.sanchez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "martin.sanchez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "03:45 PM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "luisa.gonzalez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Deseo dar de baja mi servicio de televisión por cable"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5836,
+    -58.4092
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportivo",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        },
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd53"
+  },
+  "usuario_afectado": "carlos.perez",
+  "asunto": "desperfecto",
+  "comentario_inicial": "Mi conexión de internet se cae constantemente",
+  "estado": "abierto",
+  "asignador": "",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [
+    {
+      "emisor": "carlos.perez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Mi conexión de internet se cae constantemente"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5842,
+    -58.4087
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportivo",
+      "version": "2.0",
+      "fecha_vigencia": "01/01/2024",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        },
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd54"
+  },
+  "usuario_afectado": "lucia.gomez",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Quiero dar de baja mi servicio de telefonía fija",
+  "estado": "esperando_respuesta_cliente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "lucia.gomez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "lucia.gomez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "08:10 PM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Estimada Lucía, hemos recibido tu solicitud para dar de baja el servicio de telefonía fija. Por favor, confirma si deseas continuar con la baja."
+    },
+    {
+      "emisor": "lucia.gomez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Sí, confirmo que deseo dar de baja mi servicio de telefonía fija"
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5818,
+    -58.4115
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Cine",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 501
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 502
+        },
+        {
+          "nombre_canal": "Paramount",
+          "numero_canal": 503
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd55"
+  },
+  "usuario_afectado": "juan.lopez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Deseo cambiar mi plan de internet por uno de mayor velocidad",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "luis.fernandez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "luis.fernandez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "09:45 AM"
+    }
+  ],
+  "historial_conversacion": [],
+  "coordenadas_localizacion_afectado": [
+    -34.5867,
+    -58.4059
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Música",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "MTV",
+          "numero_canal": 601
+        },
+        {
+          "nombre_canal": "VH1",
+          "numero_canal": 602
+        },
+        {
+          "nombre_canal": "MuchMusic",
+          "numero_canal": 603
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Cine",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 501
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 502
+        },
+        {
+          "nombre_canal": "Paramount",
+          "numero_canal": 503
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd56"
+  },
+  "usuario_afectado": "laura.martinez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Me gustaría cambiar mi plan de televisión por cable",
+  "estado": "resuelto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "laura.martinez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "laura.martinez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "11:30 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Estimada Laura, hemos recibido tu solicitud para cambiar tu plan de televisión por cable. En breve te brindaremos las opciones disponibles para que puedas realizar el cambio."
+    },
+    {
+      "emisor": "laura.martinez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Gracias por tu respuesta. Estaré atenta a las opciones disponibles."
+    },
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Laura, hemos revisado tus opciones y te recomendamos el Pack Cine. ¿Estás de acuerdo con este cambio?"
+    },
+    {
+      "emisor": "laura.martinez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Sí, estoy de acuerdo. Quiero agregar el Pack Cine a mi plan de televisión por cable."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5839,
+    -58.4092
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportivo",
+      "version": "2.0",
+      "fecha_vigencia": "01/01/2024",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        },
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        }
+      ]
+    }
+  ],
+  "conclusion_final": "Se ha agregado el Pack Cine al plan de televisión por cable de Laura."
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd57"
+  },
+  "usuario_afectado": "carlos.rodriguez",
+  "asunto": "dar_de_alta",
+  "comentario_inicial": "Quiero dar de alta un nuevo servicio de internet en mi hogar",
+  "estado": "abierto",
+  "asignador": "",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [],
+  "coordenadas_localizacion_afectado": [
+    -34.5931,
+    -58.4012
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Infantil",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Disney Channel",
+          "numero_canal": 701
+        },
+        {
+          "nombre_canal": "Cartoon Network",
+          "numero_canal": 702
+        },
+        {
+          "nombre_canal": "Nickelodeon",
+          "numero_canal": 703
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd58"
+  },
+  "usuario_afectado": "maria.gonzalez",
+  "asunto": "desperfecto",
+  "comentario_inicial": "Estoy experimentando problemas con mi servicio de telefonía",
+  "estado": "esperando_respuesta_cliente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "luis.fernandez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "luis.fernandez",
+      "fecha_asignacion": "2023-05-18",
+      "hora_asignacion": "04:15 PM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Estimada María, hemos recibido tu reporte sobre los problemas con tu servicio de telefonía. Estamos trabajando en ello y te mantendremos informada sobre los avances."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5913,
+    -58.4025
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "2.0",
+      "fecha_vigencia": "01/01/2024",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Discovery Channel",
+          "numero_canal": 801
+        },
+        {
+          "nombre_canal": "National Geographic",
+          "numero_canal": 802
+        },
+        {
+          "nombre_canal": "History Channel",
+          "numero_canal": 803
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd59"
+  },
+  "usuario_afectado": "pedro.gomez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Necesito cambiar mi plan de telefonía móvil",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "luis.fernandez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "luis.fernandez",
+      "fecha_asignacion": "2023-05-19",
+      "hora_asignacion": "10:30 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Hola Pedro, gracias por contactarnos. ¿Podrías proporcionarme más detalles sobre el cambio de plan que deseas realizar?"
+    },
+    {
+      "emisor": "pedro.gomez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Claro, estoy interesado en cambiar a un plan con más datos móviles y minutos de llamadas."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5947,
+    -58.3989
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportivo",
+      "version": "1.5",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        },
+        {
+          "nombre_canal": "TNT Sports",
+          "numero_canal": 258
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "1.2",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Universal Channel",
+          "numero_canal": 901
+        },
+        {
+          "nombre_canal": "Warner Channel",
+          "numero_canal": 902
+        },
+        {
+          "nombre_canal": "FX",
+          "numero_canal": 903
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd5a"
+  },
+  "usuario_afectado": "ana.lopez",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Quiero dar de baja mi servicio de televisión por cable",
+  "estado": "resuelto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "luis.fernandez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "luis.fernandez",
+      "fecha_asignacion": "2023-05-20",
+      "hora_asignacion": "09:45 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Hola Ana, lamento escuchar que deseas dar de baja tu servicio de televisión por cable. ¿Podrías brindarme más detalles sobre la razón de tu decisión?"
+    },
+    {
+      "emisor": "ana.lopez",
+      "tipo_usuario": "cliente",
+      "mensaje": "He decidido cancelar el servicio porque estoy cambiando a una plataforma de streaming. Gracias."
+    },
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Entendido, Ana. Procederemos a realizar la baja de tu servicio de televisión por cable. Te agradecemos por haber sido parte de nuestra compañía y esperamos que disfrutes de tu nueva plataforma de streaming."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5892,
+    -58.4051
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Cine",
+      "version": "1.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 501
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 502
+        },
+        {
+          "nombre_canal": "TCM",
+          "numero_canal": 503
+        }
+      ]
+    }
+  ],
+  "conclusion_final": "El servicio de televisión por cable de Ana ha sido dado de baja de manera exitosa."
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd5b"
+  },
+  "usuario_afectado": "marcos.rodriguez",
+  "asunto": "desperfecto",
+  "comentario_inicial": "Tengo problemas con la calidad de la señal de internet en mi hogar. La conexión se cae constantemente.",
+  "estado": "abierto",
+  "asignador": "",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [],
+  "coordenadas_localizacion_afectado": [
+    -34.5985,
+    -58.4042
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "1.2",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Universal Channel",
+          "numero_canal": 901
+        },
+        {
+          "nombre_canal": "Warner Channel",
+          "numero_canal": 902
+        },
+        {
+          "nombre_canal": "FX",
+          "numero_canal": 903
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd5c"
+  },
+  "usuario_afectado": "lucas.perez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Estoy interesado en cambiar mi plan de internet a uno de mayor velocidad. ¿Podrían brindarme información al respecto?",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "luis.fernandez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "luis.fernandez",
+      "fecha_asignacion": "2023-05-22",
+      "hora_asignacion": "11:15 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Hola Lucas, gracias por contactarnos. Tenemos disponibles varios planes de mayor velocidad. ¿Podrías indicarme cuál es tu plan actual y qué velocidad te gustaría tener?"
+    },
+    {
+      "emisor": "lucas.perez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Actualmente tengo el plan básico de 20 Mbps, me gustaría contar con al menos 50 Mbps para una mejor experiencia de navegación."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5987,
+    -58.3974
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportivo",
+      "version": "1.5",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        },
+        {
+          "nombre_canal": "TNT Sports",
+          "numero_canal": 258
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd5d"
+  },
+  "usuario_afectado": "ana.gonzalez",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Deseo dar de baja mi servicio de televisión por cable, ya que he optado por una plataforma de streaming para mis contenidos audiovisuales.",
+  "estado": "esperando_respuesta_agente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "juan.perez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "juan.perez",
+      "fecha_asignacion": "2023-05-22",
+      "hora_asignacion": "02:30 PM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "juan.perez",
+      "tipo_usuario": "agente",
+      "mensaje": "Hola Ana, entiendo tu decisión de cambiar a una plataforma de streaming. Antes de proceder con la baja, ¿podrías confirmarme tu número de cliente y la fecha a partir de la cual deseas que se efectúe la baja?"
+    },
+    {
+      "emisor": "ana.gonzalez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Mi número de cliente es 123456789 y me gustaría que la baja se realice a partir del próximo mes, el 1 de junio."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5881,
+    -58.4076
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Cine",
+      "version": "2.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 501
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 502
+        },
+        {
+          "nombre_canal": "TCM",
+          "numero_canal": 503
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Música",
+      "version": "1.2",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "MTV",
+          "numero_canal": 601
+        },
+        {
+          "nombre_canal": "VH1",
+          "numero_canal": 602
+        },
+        {
+          "nombre_canal": "MuchMusic",
+          "numero_canal": 603
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd5e"
+  },
+  "usuario_afectado": "martina.lopez",
+  "asunto": "dar_de_alta",
+  "comentario_inicial": "Deseo dar de alta el servicio de internet en mi nuevo departamento. ¿Cuáles son las opciones y precios disponibles?",
+  "estado": "resuelto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "luis.fernandez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "luis.fernandez",
+      "fecha_asignacion": "2023-05-23",
+      "hora_asignacion": "09:45 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Hola Martina, te puedo ofrecer diferentes planes de internet de acuerdo a tus necesidades. ¿Podrías indicarme la velocidad de internet que estás buscando y la zona en la que te encuentras?"
+    },
+    {
+      "emisor": "martina.lopez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Estoy buscando una velocidad de al menos 100 Mbps y me encuentro en el barrio de Palermo, CABA."
+    },
+    {
+      "emisor": "luis.fernandez",
+      "tipo_usuario": "agente",
+      "mensaje": "Perfecto, Martina. Tenemos disponibles varios planes de 100 Mbps en tu zona. Te enviaré por correo electrónico la información detallada para que puedas realizar la contratación."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5782,
+    -58.4326
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "1.5",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "Universal Channel",
+          "numero_canal": 901
+        },
+        {
+          "nombre_canal": "Warner Channel",
+          "numero_canal": 902
+        },
+        {
+          "nombre_canal": "FX",
+          "numero_canal": 903
+        }
+      ]
+    }
+  ],
+  "conclusion_final": "Se envió por correo electrónico la información detallada para la contratación del servicio."
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd5f"
+  },
+  "usuario_afectado": "carlos.martinez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Quisiera cambiar mi plan actual de internet por uno de mayor velocidad. ¿Cuáles son las opciones disponibles?",
+  "estado": "abierto",
+  "asignador": "",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [],
+  "coordenadas_localizacion_afectado": [
+    -34.6118,
+    -58.4173
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportes",
+      "version": "1.2",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        },
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd60"
+  },
+  "usuario_afectado": "carlos.martinez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Quisiera cambiar mi plan actual de internet por uno de mayor velocidad. ¿Cuáles son las opciones disponibles?",
+  "estado": "abierto",
+  "asignador": "",
+  "ultimo_asignado": "",
+  "historial_derivaciones": [],
+  "historial_conversacion": [],
+  "coordenadas_localizacion_afectado": [
+    -34.6118,
+    -58.4173
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportes",
+      "version": "1.2",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        },
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd61"
+  },
+  "usuario_afectado": "maria.rojas",
+  "asunto": "desperfecto",
+  "comentario_inicial": "Mi servicio de televisión por cable presenta problemas de señal. Los canales se ven con interferencias y la calidad de la imagen es deficiente.",
+  "estado": "esperando_respuesta_cliente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "juan.perez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "juan.perez",
+      "fecha_asignacion": "2023-05-25",
+      "hora_asignacion": "10:15 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "juan.perez",
+      "tipo_usuario": "agente",
+      "mensaje": "Hola María, lamento los inconvenientes que estás experimentando. Para poder ayudarte, necesitaría que me brindes algunos detalles adicionales, como el número de cliente y si el problema afecta a todos los canales o solo a algunos en particular."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5869,
+    -58.3969
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Entretenimiento",
+      "version": "2.0",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 501
+        },
+        {
+          "nombre_canal": "Universal Channel",
+          "numero_canal": 901
+        },
+        {
+          "nombre_canal": "Warner Channel",
+          "numero_canal": 902
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd62"
+  },
+  "usuario_afectado": "pedro.gomez",
+  "asunto": "cambio_de_plan",
+  "comentario_inicial": "Estoy interesado en cambiar mi plan actual de televisión por cable por uno que incluya más canales de deportes. ¿Cuáles son las opciones disponibles?",
+  "estado": "esperando_respuesta_cliente",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "maria.rodriguez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "maria.rodriguez",
+      "fecha_asignacion": "2023-05-25",
+      "hora_asignacion": "11:30 AM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "maria.rodriguez",
+      "tipo_usuario": "agente",
+      "mensaje": "Hola Pedro, gracias por contactarnos. Tenemos diferentes opciones de paquetes que incluyen canales de deportes. Déjame verificar la disponibilidad en tu zona y te brindaré más detalles en breve."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.5914,
+    -58.4123
+  ],
+  "packs_de_canales_adquiridos": [
+    {
+      "nombre_pack": "Deportes",
+      "version": "1.5",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "ESPN",
+          "numero_canal": 256
+        },
+        {
+          "nombre_canal": "Fox Sports",
+          "numero_canal": 257
+        },
+        {
+          "nombre_canal": "TyC Sports",
+          "numero_canal": 255
+        }
+      ]
+    },
+    {
+      "nombre_pack": "Cine",
+      "version": "1.8",
+      "fecha_vigencia": "01/01/2023",
+      "canales_incluidos": [
+        {
+          "nombre_canal": "HBO",
+          "numero_canal": 501
+        },
+        {
+          "nombre_canal": "Cinemax",
+          "numero_canal": 502
+        },
+        {
+          "nombre_canal": "TCM",
+          "numero_canal": 503
+        }
+      ]
+    }
+  ],
+  "conclusion_final": ""
+},{
+  "_id": {
+    "$oid": "648d2df94b46d4259867cd63"
+  },
+  "usuario_afectado": "javier.lopez",
+  "asunto": "dar_de_baja",
+  "comentario_inicial": "Deseo dar de baja mi servicio de internet, ya que me mudaré a otra ciudad.",
+  "estado": "resuelto",
+  "asignador": "luis.fernandez",
+  "ultimo_asignado": "maria.rodriguez",
+  "historial_derivaciones": [
+    {
+      "asignador": "luis.fernandez",
+      "asignado": "maria.rodriguez",
+      "fecha_asignacion": "2023-05-25",
+      "hora_asignacion": "14:45 PM"
+    }
+  ],
+  "historial_conversacion": [
+    {
+      "emisor": "maria.rodriguez",
+      "tipo_usuario": "agente",
+      "mensaje": "Hola Javier, entiendo tu situación. Lamentamos que nos dejes. Para poder procesar la baja, necesitaría que me indiques tu número de cliente y la fecha a partir de la cual deseas que se haga efectiva la cancelación."
+    },
+    {
+      "emisor": "javier.lopez",
+      "tipo_usuario": "cliente",
+      "mensaje": "Mi número de cliente es 12345678. La fecha a partir de la cual quiero dar de baja el servicio es el 30/05/2023."
+    },
+    {
+      "emisor": "maria.rodriguez",
+      "tipo_usuario": "agente",
+      "mensaje": "Gracias por la información, Javier. Procesaré la baja a partir del 30/05/2023. Recuerda que deberás devolver los equipos en el punto de atención más cercano. ¿Hay algo más en lo que pueda ayudarte?"
+    },
+    {
+      "emisor": "javier.lopez",
+      "tipo_usuario": "cliente",
+      "mensaje": "No, eso sería todo. Muchas gracias por tu atención."
+    }
+  ],
+  "coordenadas_localizacion_afectado": [
+    -34.6053,
+    -58.3847
+  ],
+  "packs_de_canales_adquiridos": [],
+  "conclusion_final": "Baja solicitada para el servicio de internet a partir del 30/05/2023."
+}]

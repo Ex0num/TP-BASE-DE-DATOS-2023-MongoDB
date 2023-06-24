@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6496e773010cdf11378672f7"
+  },
+  "username": "jose.rodriguez",
+  "nombre": "Pepe",
+  "apellido": "Martinez",
+  "password": "1232as",
+  "sexo": "masculino",
+  "tipo": "cliente",
+  "createdAt": {
+    "$date": "2023-06-24T12:54:11.396Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-24T12:54:11.396Z"
+  }
+},{
+  "_id": {
+    "$oid": "6496e78e010cdf11378672fb"
+  },
+  "username": "julio.lopez",
+  "nombre": "Pepe",
+  "apellido": "Martinez",
+  "password": "1232as",
+  "sexo": "masculino",
+  "tipo": "cliente",
+  "createdAt": {
+    "$date": "2023-06-24T12:54:38.707Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-24T12:54:38.707Z"
+  }
+},{
+  "_id": {
+    "$oid": "6496e7a3010cdf11378672fe"
+  },
+  "username": "luisa.gonzalez",
+  "nombre": "Pepe",
+  "apellido": "Martinez",
+  "password": "1232as",
+  "sexo": "femenino",
+  "tipo": "cliente",
+  "createdAt": {
+    "$date": "2023-06-24T12:54:59.755Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-24T12:54:59.755Z"
+  }
+}]

@@ -1,0 +1,42 @@
+<mat-card id="seccion-panel-adm">
+    <mat-drawer-container id="drawer-seccion-panel-adm">
+        
+        <!-- Menu desplegable -->
+        <mat-drawer #drawer id="menu-panel-adm" mode="side">
+            <div (click)="itemMenuClickeado('base-de-datos')" class="item-menu-panel-adm">
+                <img class="img-menu-panel-adm" src="../../../../assets/icons/panel-de-consultas/menu/database.png" alt="icono de base de datos">
+                <label class="lbl-menu-panel-adm">Listado</label> 
+            </div>
+            <div (click)="itemMenuClickeado('querys')" class="item-menu-panel-adm">
+                <img class="img-menu-panel-adm" src="../../../../assets/icons/panel-de-consultas/menu/proyectar.png" alt="icono de proyectar">
+                <label class="lbl-menu-panel-adm">Querys</label> 
+            </div>
+            <div (click)="itemMenuClickeado('informes')" class="item-menu-panel-adm">
+                <img class="img-menu-panel-adm" src="../../../../assets/icons/panel-de-consultas/menu/informes.png" alt="icono de informes">
+                <label class="lbl-menu-panel-adm">Informes</label> 
+            </div>
+        </mat-drawer>
+
+        <!-- Contenido visual -->
+        <mat-drawer-content id="contenido-total-panel-adm">
+
+            <div class="row" id="header-panel-adm">
+                <button mat-button color="warn" id="btn-header-panel-adm" type="button" mat-button (click)="drawer.toggle()" color="primary">
+                    <img src="../../../../assets/icons/panel-de-consultas/menu/dashboard.png" alt="icono de menu" id="img-header-panel-adm">
+                </button>
+                <h1 id="titulo-panel-adm">Texto de día</h1>
+            </div>
+
+            <!-- OPCION [BASE-DE-DATOS] -->
+            <app-base-de-datos id="app-db" *ngIf="id_seccion_mostrada == 'base-de-datos'" [resultadosRecibidosQueryEjecutada]="eventoRecibido"></app-base-de-datos>
+
+            <!-- OPCION [QUERYS] -->
+            <app-querys id="app-querys" *ngIf="id_seccion_mostrada == 'querys'" (queryEjecutada)="eventoRecibido = $event; cambiarVistaPostQuery()"></app-querys>
+
+            <!-- OPCION [INFORMES] -->
+            <app-informes id="app-informes" *ngIf="id_seccion_mostrada == 'informes'"></app-informes>
+
+        </mat-drawer-content>
+        
+    </mat-drawer-container>
+</mat-card>

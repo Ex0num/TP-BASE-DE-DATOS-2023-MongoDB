@@ -1,0 +1,119 @@
+<mat-card id="contenedor-botones-sp1">
+
+    <div>
+        <h2 class="titulo-sprints-btns">Primer sprint</h2>
+    
+        <div class="row">
+            <h5>Condiciones</h5>
+            <ul>
+                <li>• Uso de Colecciones ✔️</li>
+                <li>• Uso de Objetos ✔️</li>
+                <li>• Uso de Strings ✔️</li>
+                <li>• Uso de Array de valores ✔️</li>
+                <li>• Uso de Objeto con Arrays ✔️</li>
+                <li>• Trabajo Front-end ✔️</li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="titulo-sprints-btns">Segundo sprint</h2>
+    
+        <div class="row">
+            <h5>Condiciones</h5>
+            <ul>
+                <li>• Entrega en fecha ✔️</li>
+                <li>• Busquedas por índices de texto ✔️</li>
+            </ul>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="row fila-seccion-btns">
+            <h4 class="titulo-seccion-btns">Operadores numéricos</h4>
+            <button class="boton-query" (click)="EjecutarQuery('$eq')">$eq</button>
+            <button class="boton-query" (click)="EjecutarQuery('$gt')">$gt</button>
+            <button class="boton-query" (click)="EjecutarQuery('$gte')">$gte</button>
+            <button class="boton-query" (click)="EjecutarQuery('$lt')">$lt</button>
+            <button class="boton-query" (click)="EjecutarQuery('$lte')">$lte</button>
+            <button class="boton-query" (click)="EjecutarQuery('$ne')">$ne</button>
+        </div>
+    
+        <mat-divider></mat-divider>
+    
+        <div class="row fila-seccion-btns">
+            <h4 class="titulo-seccion-btns">Operadores lógicos</h4>
+            <button class="boton-query" (click)="EjecutarQuery('$or')">$or</button>
+            <button class="boton-query" (click)="EjecutarQuery('$and')">$and</button>
+            <button class="boton-query" (click)="EjecutarQuery('$nor')">$nor</button>
+            <button class="boton-query" (click)="EjecutarQuery('$not')">$not</button>
+        </div>
+    
+        <mat-divider></mat-divider>
+    
+        <div class="row fila-seccion-btns">
+            <h4 class="titulo-seccion-btns">Operadores geolocalización</h4>
+            <button class="boton-query" (click)="EjecutarQuery('$near')">$near</button>
+            <button class="boton-query" (click)="EjecutarQuery('$geoWithin')">$geoWithin</button>
+            <button class="boton-query" (click)="EjecutarQuery('$geoIntersect')">$geoIntersect</button>
+            <button class="boton-query" (click)="EjecutarQuery('$lookup')">$lookup</button>
+            <button class="boton-query" (click)="EjecutarQuery('$text')">$text</button>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="titulo-sprints-btns">Tercer sprint</h2>
+    
+        <div class="row">
+            <h5>Condiciones</h5>
+            <ul>
+                <li>• Busquedas por índices de texto ✔️</li>
+            </ul>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="row fila-seccion-btns">
+            <h4 class="titulo-seccion-btns">Operadores de existencia</h4>
+            <button class="boton-query" (click)="EjecutarQuery('$exists')">$exists</button>
+            <button class="boton-query" (click)="EjecutarQuery('$type')">$type</button>
+            <button class="boton-query" (click)="EjecutarQuery('$all')">$all</button>
+            <button class="boton-query" (click)="EjecutarQuery('$elemMatch')">$elemMatch</button>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="titulo-sprints-btns">Cuarto sprint</h2>
+    
+        <mat-divider></mat-divider>
+
+        <div class="row fila-seccion-btns">
+            <h4 class="titulo-seccion-btns">Operadores de órden</h4>
+            <button class="boton-query" (click)="EjecutarQuery('$size')">$size</button>
+            <button class="boton-query" (click)="EjecutarQuery('$sortByCount')">$sortByCount</button>
+            <button class="boton-query" (click)="EjecutarQuery('$unwind')">$unwind</button>
+            <button class="boton-query" (click)="EjecutarQuery('$group')">$group</button>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="titulo-sprints-btns">Quinto sprint</h2>
+    
+        <mat-divider></mat-divider>
+
+        <div class="row fila-seccion-btns">
+            <h4 class="titulo-seccion-btns">Operadores de proyección</h4>
+            <button class="boton-query" (click)="EjecutarQuery('$project')">$project</button>
+            <button class="boton-query" (click)="EjecutarQuery('$expr')">$expr</button>
+            <button class="boton-query" (click)="EjecutarQuery('$match')">$match</button>
+        </div>
+    </div>
+
+    <div>
+        <div class="row fila-seccion-btns">
+            <h4 class="titulo-seccion-btns">Reiniciar listado</h4>
+            <button class="boton-query" (click)="EjecutarQuery('$getAll')">getAll</button>
+        </div>
+    </div>
+
+</mat-card>

@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+/* @font-face {font-family: Montserrat-normal; src: url(./assets/fuentes/Tesys-montserrat-normal.ttf);}
+@font-face {font-family: Raleway-medium; src: url(./assets/fuentes/Tesys-raleway-medium.ttf);}
+@font-face {font-family: Raleway-extra-bold; src: url(./assets/fuentes/Tesys-raleway-extra-bold.ttf);}
+@font-face {font-family: BalooBH-medium; src: url(./assets/fuentes/Titulos/Baloo_Bhaijaan_2/static/BalooBhaijaan2-Medium.ttf)}
+@font-face {font-family: BalooBH-normal; src: url(./assets/fuentes/Titulos/Baloo_Bhaijaan_2/BalooBhaijaan2-VariableFont_wght.ttf)} */
+
+@font-face {font-family: Arista-pro-alternate-extralight; src: url(./assets/fuentes/Tesys-arista-pro-alternate-extralight.ttf);}
+@font-face {font-family: Arista-pro-light; src: url(./assets/fuentes/Tesys-arista-pro-light.ttf);}
+@font-face {font-family: BalooBH-normal; src: url(./assets/fuentes/Tesys-BalooBhaijaan2-variable.ttf)}
+@font-face {font-family: BalooBH-medium; src: url(./assets/fuentes/Tesys-BalooBhaijaan2-medium.ttf)}
+@font-face {font-family: Montserrat-normal; src: url(./assets/fuentes/Tesys-montserrat-normal.ttf);}
+@font-face {font-family: Raleway-thin; src: url(./assets/fuentes/Tesys-raleway-thin.ttf);}
+@font-face {font-family: Raleway-medium; src: url(./assets/fuentes/Tesys-raleway-medium.ttf);}
+@font-face {font-family: Raleway-extra-bold; src: url(./assets/fuentes/Tesys-raleway-extra-bold.ttf);}
+
+html, body {height: 100%;}
+body {margin: 0; font-family: Montserrat-normal}
+a {text-decoration: none; cursor: pointer;}
+li {list-style: none;}
+p {margin: 0px;}
+html, body {height: 100%;}
+body {background-color: whitesmoke;}
+
+/* 2. 5, 4 */
+
+/* fuera */
+/* 1, 3 */

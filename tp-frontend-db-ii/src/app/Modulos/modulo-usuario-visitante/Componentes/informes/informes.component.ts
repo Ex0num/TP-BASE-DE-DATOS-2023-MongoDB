@@ -25,17 +25,17 @@ export class InformesComponent {
     {
         // Identificar endpoint
         let urls_endpoints:any = [
-            "http://localhost:3111/api/tp/tickets/informes/control-de-atencion/primer-informe",
-            "http://localhost:3111/api/tp/tickets/informes/control-de-atencion/segundo-informe",
+            "https://tp-db-2023.onrender.com/api/tp/tickets/informes/control-de-atencion/primer-informe",
+            "https://tp-db-2023.onrender.com/api/tp/tickets/informes/control-de-atencion/segundo-informe",
 
-            "http://localhost:3111/api/tp/tickets/informes/control-de-incidentes/primer-informe",
-            "http://localhost:3111/api/tp/tickets/informes/control-de-incidentes/segundo-informe",
+            "https://tp-db-2023.onrender.com/api/tp/tickets/informes/control-de-incidentes/primer-informe",
+            "https://tp-db-2023.onrender.com/api/tp/tickets/informes/control-de-incidentes/segundo-informe",
 
-            "http://localhost:3111/api/tp/tickets/informes/datos-zonales/primer-informe",
-            "http://localhost:3111/api/tp/tickets/informes/datos-zonales/segundo-informe",
+            "https://tp-db-2023.onrender.com/api/tp/tickets/informes/datos-zonales/primer-informe",
+            "https://tp-db-2023.onrender.com/api/tp/tickets/informes/datos-zonales/segundo-informe",
 
-            "http://localhost:3111/api/tp/tickets/informes/datos-de-clientes/primer-informe",
-            "http://localhost:3111/api/tp/tickets/informes/datos-de-clientes/segundo-informe",
+            "https://tp-db-2023.onrender.com/api/tp/tickets/informes/datos-de-clientes/primer-informe",
+            "https://tp-db-2023.onrender.com/api/tp/tickets/informes/datos-de-clientes/segundo-informe",
         ];
         
         console.log(urls_endpoints);
@@ -113,3 +113,4 @@ export class InformesComponent {
     }
 
 }
+

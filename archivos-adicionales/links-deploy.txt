@@ -1,0 +1,6 @@
+DEPLOY FRONT-END:
+https://tp-db-2023.web.app/inicio
+https://tp-db-2023.web.app/panel-de-consultas (Abrir menú desplegable izquierdo para ver más secciones)
+
+DEPLOY BACK-END:
+https://tp-db-2023.onrender.com/ (Todos los endpoints subidos y documentados en el Postman.file)

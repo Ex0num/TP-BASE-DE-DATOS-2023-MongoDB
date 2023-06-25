@@ -1,0 +1,7 @@
+[USUARIO]: octavio
+[CONTRASEÑA]: aguantealiexpress
+[PERMISOS]: readAnyDatabase@admin (MongoDB Roles)
+
+[STRING CONEXIÓN COMPASS]:  mongodb+srv://octavio:aguantealiexpress@gabriel-lopez-gasal.dp6kuvk.mongodb.net/
+[STRING CONEXIÓN SHELL]: mongosh "mongodb+srv://gabriel-lopez-gasal.dp6kuvk.mongodb.net/" --apiVersion 1 --username octavio
+[STRING CONEXIÓN VS]: mongodb+srv://octavio:aguantealiexpress@gabriel-lopez-gasal.dp6kuvk.mongodb.net/

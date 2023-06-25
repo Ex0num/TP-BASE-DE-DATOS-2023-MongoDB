@@ -1,0 +1,33 @@
+cd 
+mongorestore oceans.bson --db=nombreDB (ARCHIVOS .bson)
+--------------------------------------------------------------------------------------------------------
+CLASE 1 (Create & Insert): https://onlinegdb.com/eNla2iX8S
+
+CLASE 1 (Import & Export): https://www.onlinegdb.com/-HodkrR7J|| (Updated): https://onlinegdb.com/ugj-DpvEV || (Updated v2): https://onlinegdb.com/18thsHWKy || || (Updated v3): https://onlinegdb.com/18thsHWKy ||
+(Updated v4): https://onlinegdb.com/o1QRSGFon
+
+CLASE 1 (Dump & Restore): https://onlinegdb.com/XCyEhPdJG
+
+IMPORT-> (Dmongoimport --db=PetHotel --jsonArray --file=pets_array.json
+
+CLASE 2 (Find, Count, Operators): https://onlinegdb.com/eMRdN_9nG
+
+CLASE 3: (Find, Count, Operators, AND, OR, NOT): https://onlinegdb.com/4dmksiDhw
+
+CLASE 4: (UpdateMany):  https://onlinegdb.com/8iyA05UEY (1 to 15)
+CLASE 4: UpdateMany A to F): https://onlinegdb.com/b6PGl_wKR (A to F)
+https://onlinegdb.com/wxhaJNfIh (All, J-in-Case)
+
+CLASE 5: (Personas): https://onlinegdb.com/R8FcY4Ky3
+CLASE 5: (Peliculas): https://onlinegdb.com/kfx-7iJAQ
+
+CLASE 6: (Mascotas) [Simulacro-Parcial]: https://onlinegdb.com/f7lB2IhzdE
+
+Personal: (Helados) [Simulacro-Parcial-v2]: https://onlinegdb.com/V3Nr5jbJf
+CLASE 7: (Helados) [Parcial-1]: https://onlinegdb.com/mzTR8TUfe
+
+CLASE 8: (Peliculas - Aggregation Framework):  https://onlinegdb.com/bQPTtUD7e
+
+CLASE 9: (Ships - Geoespaciales): https://onlinegdb.com/XMrJEq_67
+
+CLASE 10: (Ships - Lookup): https://onlinegdb.com/K-WHDsQXC

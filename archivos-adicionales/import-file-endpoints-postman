@@ -1,0 +1,1038 @@
+{
+	"info": {
+		"_postman_id": "8abca019-695a-418d-9e65-fdb40ab2a7f3",
+		"name": "BASE-DE-DATOS-2023",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27454251"
+	},
+	"item": [
+		{
+			"name": "USUARIOS",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3111/",
+							"host": [
+								"localhost"
+							],
+							"port": "3111",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/v1/usuarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3111/api/v1/usuarios",
+							"host": [
+								"localhost"
+							],
+							"port": "3111",
+							"path": [
+								"api",
+								"v1",
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/v1/usuarios/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3111/api/v1/usuarios/by-id/6496e7a3010cdf11378672fe",
+							"host": [
+								"localhost"
+							],
+							"port": "3111",
+							"path": [
+								"api",
+								"v1",
+								"usuarios",
+								"by-id",
+								"6496e7a3010cdf11378672fe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/v1/usuarios/{username}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3111/api/v1/usuarios/by-username/jose.rodriguez",
+							"host": [
+								"localhost"
+							],
+							"port": "3111",
+							"path": [
+								"api",
+								"v1",
+								"usuarios",
+								"by-username",
+								"jose.rodriguez"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/v1/usuarios",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"luisa.gonzalez\",\r\n    \"nombre\": \"Pepe\",\r\n    \"apellido\": \"Martinez\",\r\n    \"password\": \"1232as\",\r\n    \"sexo\": \"femenino\"\r\n}"
+						},
+						"url": {
+							"raw": "localhost:3111/api/v1/usuarios",
+							"host": [
+								"localhost"
+							],
+							"port": "3111",
+							"path": [
+								"api",
+								"v1",
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TICKETS",
+			"item": [
+				{
+					"name": "SPRINT-2",
+					"item": [
+						{
+							"name": "OPERADORES-NUMERICOS",
+							"item": [
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-numericos/eq",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-numericos/eq",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-numericos",
+												"eq"
+											]
+										},
+										"description": "ticket.find({ usuario_afectado: {$eq: \"pedro.gomez\"});"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-numericos/gt",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-numericos/gt",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-numericos",
+												"gt"
+											]
+										},
+										"description": "ticket.find({'packs_de_canales_adquiridos.canales_incluidos.numero_canal': {$gt: 901} });"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-numericos/gte",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-numericos/gte",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-numericos",
+												"gte"
+											]
+										},
+										"description": "ticket.find({'packs_de_canales_adquiridos.canales_incluidos.numero_canal': {$gte: 903}"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-numericos/lt",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-numericos/lt",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-numericos",
+												"lt"
+											]
+										},
+										"description": "ticket.find({'packs_de_canales_adquiridos.canales_incluidos.numero_canal': {$lt: 213} }"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-numericos/lte",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-numericos/lte",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-numericos",
+												"lte"
+											]
+										},
+										"description": "ticket.find({'packs_de_canales_adquiridos.canales_incluidos.numero_canal': {$lte: 212} });"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-numericos/ne",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-numericos/ne",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-numericos",
+												"ne"
+											]
+										},
+										"description": "ticket.find({'asunto': { $ne: \"desperfecto\" }});"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-numericos/in",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-numericos/in",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-numericos",
+												"in"
+											]
+										},
+										"description": "const valores = [343];\nticket.find({'packs_de_canales_adquiridos.canales_incluidos.numero_canal': { $in: valores }});"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-numericos/nin",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-numericos/nin",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-numericos",
+												"nin"
+											]
+										},
+										"description": "const valores = [256,343,401,502,602,701,802,903];\nticket.find({'packs_de_canales_adquiridos.canales_incluidos.numero_canal': { $nin: valores }});"
+									},
+									"response": []
+								}
+							],
+							"description": "$eq, $gt, $gte, $lt, $lte, $ne, $in, $nin"
+						},
+						{
+							"name": "OPERADORES-LOGICOS",
+							"item": [
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-logicos/or",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-logicos/or",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-logicos",
+												"or"
+											]
+										},
+										"description": "ticket.find({\n            $or: [\n                {usuario_afectado: \"maria.gonzalez\"},\n                {usuario_afectado: \"marcos.rodriguez\"},\n            ]});"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-logicos/and",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-logicos/and",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-logicos",
+												"and"
+											]
+										},
+										"description": "ticket.find({\n            $and: [\n                {usuario_afectado: \"maria.gonzalez\"},\n                {ultimo_asignado: \"luis.fernandez\"},\n            ]});"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-logicos/nor",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-logicos/nor",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-logicos",
+												"nor"
+											]
+										},
+										"description": "ticket.find({\n            $nor: [\n                {estado: \"abierto\"},\n                {estado: \"resuelto\"}\n            ]});"
+									},
+									"response": []
+								},
+								{
+									"name": "api/tp/tickets/sprint-2/operadores-logicos/not",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3111/api/tp/tickets/sprint-2/operadores-logicos/not",
+											"host": [
+												"localhost"
+											],
+											"port": "3111",
+											"path": [
+												"api",
+												"tp",
+												"tickets",
+												"sprint-2",
+												"operadores-logicos",
+												"not"
+											]
+										},
+										"description": "ticket.find({estado: {$not: {$eq: \"abierto\"}} });"
+									},
+									"response": []
+								}
+							],
+							"description": "$or, $and, $nor, $not"
+						},
+						{
+							"name": "api/tp/tickets/sprint-2/text-with-index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-2/text-with-index",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-2",
+										"text-with-index"
+									]
+								},
+								"description": "const ticketCollection = ticket.collection;\n        await ticketCollection.createIndex({ \"usuario_afectado\": \"text\" });\n\nconst ticketsEncontrados = await ticket.find({ $text: { $search: \"pedro.gomez\" } });"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-2/geoIntersect",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-2/geoIntersect",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-2",
+										"geoIntersect"
+									]
+								},
+								"description": "await ticket.collection.createIndex({ coordenadas_localizacion_afectado: '2dsphere' });\n    const poligono = [\n        [-34.66218397813713, -58.36446218389322], // Punto 1 (Facultad de UTNFRA)\n        [-34.68086891783184, -58.358448311254136], // Punto 2 (Hospital Presidente Peron)\n        [-34.67500175384861, -58.367696092060605], // Punto 3 (Shopping de Alto Avellaneda)\n        [-34.66218397813713, -58.36446218389322]  // El último punto debe ser igual al primero para cerrar el polígono\n      ];\n    const ticketsEncontrados = await ticket.find({\n    coordenadas_localizacion_afectado: {\n        $geoIntersects: {\n        $geometry: {\n            type: \"Polygon\",\n            coordinates: [poligono]\n        }\n        }\n    }\n    });"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-2/geoWithin",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-2/geoWithin",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-2",
+										"geoWithin"
+									]
+								},
+								"description": "await ticket.collection.createIndex({ coordenadas_localizacion_afectado: '2dsphere' });\n\nplaintext  \nconst poligono = \\[  \n\\[-34.59722853850908, -58.39870266362605\\], // Punto 1 (Facultad de Medicina UBA)  \n\\[-34.609707941766395, -58.40794127761748\\], // Punto 2 (Plaza Miserere)  \n\\[-34.601064008235284, -58.38348554603555\\], // Punto 3 (Teatro Colon)  \n\\[-34.59722853850908, -58.39870266362605\\] // El último punto debe ser igual al primero para cerrar el polígono  \n\\];  \nconst ticketsEncontrados = await ticket.find({  \ncoordenadas_localizacion_afectado: {  \n$geoWithin: {  \n$geometry: {  \ntype: \"Polygon\",  \ncoordinates: \\[poligono\\]  \n}  \n}  \n}  \n});"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-2/near",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-2/near",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-2",
+										"near"
+									]
+								},
+								"description": "const coordenadas = \\[-34.76, -58.39\\]; //Lomas de Zamora Estacion\n\nconst ticketsEncontrados = await ticket.find({ coordenadas_localizacion_afectado:\n\n{ $near:\n\n{ $geometry:\n\n{ type: 'Point', coordinates: coordenadas }, $maxDistance: 10000 // Distancia máxima en metros (10km)\n\n} } });"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-2/lookup",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-2/lookup",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-2",
+										"lookup"
+									]
+								},
+								"description": "const resultado = await ticket.aggregate([\n            {\n                $lookup: {\n                    from: \"usuarios\",\n                    localField: \"usuario_afectado\",\n                    foreignField: \"username\",\n                    as: \"usuario\"\n                }\n            },\n            {$match: { usuario: { $ne: [] }}}, // Filtra los documentos donde el campo \"usuario\" esté vacío\n            {\n                $project: {\n                    _id: 0,\n                    estado: 1,\n                    usuario: \"$usuario.username\",\n                    nombre: \"$usuario.nombre\",\n                    apellido: \"$usuario.apellido\",\n                    sexo: \"$usuario.sexo\",\n                    tipo: \"$usuario.tipo\"\n                }\n            }\n        ]);"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "SPRINT-3",
+					"item": [
+						{
+							"name": "api/tp/tickets/sprint-3/exists",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-3/exists",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-3",
+										"exists"
+									]
+								},
+								"description": "const ticketsEncontrados = await ticket.find({ 'packs_de_canales_adquiridos.nombre_pack': { $exists: false }});\n        console.log(ticketsEncontrados);\n        res.status(200).json(ticketsEncontrados);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-3/type",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-3/type",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-3",
+										"type"
+									]
+								},
+								"description": "const ticketsEncontrados = await ticket.find({ 'asignador': { $type: \"number\" }});        console.log(ticketsEncontrados);        res.status(200).json(ticketsEncontrados);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-3/all",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-3/all",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-3",
+										"all"
+									]
+								},
+								"description": "const ticketsEncontrados = await ticket.find({ 'packs_de_canales_adquiridos.canales_incluidos.nombre_canal': { $all: [\"MTV\", \"VH1\"] } });\n        console.log(ticketsEncontrados);\n        res.status(200).json(ticketsEncontrados);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-3/elemMatch",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-3/elemMatch",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-3",
+										"elemMatch"
+									]
+								},
+								"description": "const ticketsEncontrados = await ticket.find({\n            historial_derivaciones: {\n                $elemMatch: {\n                    asignador: \"luis.fernandez\",\n                    asignado: \"carlos.fernandez\"\n                }\n            }\n        });"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "SPRINT-4",
+					"item": [
+						{
+							"name": "api/tp/tickets/sprint-4/size",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-4/size",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-4",
+										"size"
+									]
+								},
+								"description": " const ticketsEncontrados = await ticket.find({ packs_de_canales_adquiridos: { $size: 3 } });"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-4/sortByCount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-4/sortByCount",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-4",
+										"sortByCount"
+									]
+								},
+								"description": "const resultado = await ticket.aggregate([\n            { $match: { estado: \"resuelto\" } },\n            { $group: { _id: \"$estado\", count: { $sum: 1 } } },\n            { $sort: { count: -1 } }\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-4/unwind",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-4/unwind",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-4",
+										"unwind"
+									]
+								},
+								"description": "const resultado = await ticket.aggregate([\n            { $unwind: \"$historial_derivaciones\" },\n            { $match: \n                {\n                    $or: [\n                        { coordenadas_localizacion_afectado: -34.5821 },\n                        { coordenadas_localizacion_afectado: -58.4128 } \n                    ]\n                }}\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-4/group",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-4/group",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-4",
+										"group"
+									]
+								},
+								"description": "const resultado = await ticket.aggregate([\n            { $match: { ultimo_asignado: \"martin.sanchez\" } },\n            { $group: {\n                _id: \"$ultimo_asignado\", // Campo por el cual se va a agrupar\n                estado: { $first: \"$estado\" }, // Utilizar la notación de objeto para definir el campo\n                total: { $sum: 1 } // Cálculo de la cantidad de documentos en cada grupo\n            }}\n        ]);"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "SPRINT-5",
+					"item": [
+						{
+							"name": "api/tp/tickets/sprint-4/project",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-5/project",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-5",
+										"project"
+									]
+								},
+								"description": "const resultado = await ticket.aggregate([\n            { $match: { estado: \"resuelto\" } },\n            { $match: { usuario_afectado: \"julio.lopez\" } },\n            { $project: {\n                historial_derivaciones: 0,\n                historial_conversacion: 0,\n                coordenadas_localizacion_afectado: 0,\n                packs_de_canales_adquiridos: 0,\n            }}]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-4/expr",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-5/expr",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-5",
+										"expr"
+									]
+								},
+								"description": "const resultado = await ticket.aggregate([{\n                $match: {\n                    $expr: {\n                        $and: [\n                            { $eq: [\"$ultimo_asignado\", \"$asignador\"] }, // Compara si el valor 1 es igual al valor 2\n                            { $ne: [\"$ultimo_asignado\", \"\"] }, // Filtra los valores vacíos en el campo \"ultimo_asignado\"\n                            { $ne: [\"$asignador\", \"\"] } // Filtra los valores vacíos en el campo \"ultimo_asignado\"    \n                        ]\n                    }\n                }\n            }\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/tickets/sprint-4/match",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/sprint-5/match",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"sprint-5",
+										"match"
+									]
+								},
+								"description": "const resultado = await ticket.aggregate([{\n                $match: {\n                    $expr: {\n                        $and: [\n                            { $eq: [\"$ultimo_asignado\", \"$asignador\"] }, // Compara si el valor 1 es igual al valor 2\n                            { $ne: [\"$ultimo_asignado\", \"\"] }, // Filtra los valores vacíos en el campo \"ultimo_asignado\"\n                            { $ne: [\"$asignador\", \"\"] } // Filtra los valores vacíos en el campo \"ultimo_asignado\"    \n                        ]\n                    }\n                }\n            }\n        ]);"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "INFORMES",
+					"item": [
+						{
+							"name": "api/tp/informes/control-de-atencion/primer-informe",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/informes/control-de-atencion/primer-informe",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"informes",
+										"control-de-atencion",
+										"primer-informe"
+									]
+								},
+								"description": "const resultado_1_primerInforme = await ticket.aggregate([\n            { $match: { estado: { $ne: \"resuelto\" } } },\n            { $count: \"total\" }\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/informes/control-de-atencion/segundo-informe",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/informes/control-de-atencion/segundo-informe",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"informes",
+										"control-de-atencion",
+										"segundo-informe"
+									]
+								},
+								"description": "const resultado_2_segundoInforme = await ticket.aggregate([\n            { $group: {\n                _id: \"$ultimo_asignado\",\n                count: { $sum: 1 }\n            }},\n            { $match: { _id: { $ne: \"\" } } }, // Excluir documentos con campo \"ultimo_asignado\" vacío\n            { $sort: { count: -1 }},\n            { $limit: 1 }\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/informes/control-de-incidentes/primer-informe",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/informes/control-de-incidentes/primer-informe",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"informes",
+										"control-de-incidentes",
+										"primer-informe"
+									]
+								},
+								"description": "const resultado_1_primerInforme = await ticket.aggregate([\n            { \n                $group: {\n                _id: \"$asunto\", //Agrupo por el asunto y contabilizo (sum) todos. Ordeno asc. y me quedo con 1\n                count: { $sum: 1 }\n            }},\n            { $sort: { count: -1 }},\n            { $limit: 1 },\n            { $project: \n                {\n                    _id: 0,\n                    desperfecto: \"$_id\",\n                    count: 1\n                }}\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/informes/control-de-incidentes/segundo-informe",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/informes/control-de-incidentes/segundo-informe",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"informes",
+										"control-de-incidentes",
+										"segundo-informe"
+									]
+								},
+								"description": "const resultado_2_segundoInforme = await ticket.aggregate([\n            { $match: { estado: \"resuelto\" }},\n            { $group: {\n                _id: \"$asunto\",\n                count: { $sum: 1 }\n            }},\n            { $sort: { count: -1 }},\n            { $limit: 1 },\n            { $project: {\n                _id: 0,\n                asunto: \"$_id\",\n                count: 1\n            }}\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/informes/datos-zonales/primer-informe",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/informes/datos-zonales/primer-informe",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"informes",
+										"datos-zonales",
+										"primer-informe"
+									]
+								},
+								"description": "const resultado_1_primerInforme = await ticket.aggregate([\n            { \n                $group: {\n                _id: \"$asunto\", //Agrupo por el asunto y contabilizo (sum) todos. Ordeno asc. y me quedo con 1\n                count: { $sum: 1 }\n            }},\n            { $sort: { count: -1 }},\n            { $limit: 1 },\n            { $project: \n                {\n                    _id: 0,\n                    desperfecto: \"$_id\",\n                    count: 1\n                }}\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/informes/datos-zonales/segundo-informe",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/informes/datos-zonales/segundo-informe",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"informes",
+										"datos-zonales",
+										"segundo-informe"
+									]
+								},
+								"description": "const resultado_1_primerInforme = await ticket.aggregate([\n            { \n                $group: {\n                _id: \"$asunto\", //Agrupo por el asunto y contabilizo (sum) todos. Ordeno asc. y me quedo con 1\n                count: { $sum: 1 }\n            }},\n            { $sort: { count: -1 }},\n            { $limit: 1 },\n            { $project: \n                {\n                    _id: 0,\n                    desperfecto: \"$_id\",\n                    count: 1\n                }}\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/informes/datos-de-clientes/primer-informe",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/informes/datos-de-clientes/primer-informe",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"informes",
+										"datos-de-clientes",
+										"primer-informe"
+									]
+								},
+								"description": "const resultado = await ticket.aggregate([\n            { $group: {\n                _id: \"$usuario_afectado\",\n                totalTickets: { $sum: 1 }\n            }},\n            { $sort: { totalTickets: -1 } },\n            { $limit: 1 },\n            { $project: \n                { \n                    _id: 1,\n                    totalTickets: 1\n                } \n            }\n        ]);"
+							},
+							"response": []
+						},
+						{
+							"name": "api/tp/informes/datos-de-clientes/segundo-informe",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3111/api/tp/tickets/informes/datos-de-clientes/segundo-informe",
+									"host": [
+										"localhost"
+									],
+									"port": "3111",
+									"path": [
+										"api",
+										"tp",
+										"tickets",
+										"informes",
+										"datos-de-clientes",
+										"segundo-informe"
+									]
+								},
+								"description": "const resultado = await ticket.aggregate([\n            { $group: {\n                _id: \"$usuario_afectado\",\n                totalTickets: { $sum: 1 }\n            }},\n            { $match: { totalTickets: { $gt: 2 } } },\n            { $count: \"totalClientes\" }\n        ]);"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "api/tp/tickets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3111/api/tp/tickets/get-all",
+							"host": [
+								"localhost"
+							],
+							"port": "3111",
+							"path": [
+								"api",
+								"tp",
+								"tickets",
+								"get-all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
